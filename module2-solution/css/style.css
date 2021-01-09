@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;;
+}
+
+h1 {
+	width: 90%;
+	height:100px;
+	margin-right: auto;
+	margin-left:auto;
+	font-family: Helvetica;
+	color: black;
+	text-align: center;
+}
+
+.row {
+	width:100%;
+	display: flex;
+}
+
+
+@media(min-width: 992px) {
+	.col-lg-4 {
+		float:left;
+		border:2px black solid;
+		width:33%;
+		margin-left: 10px;
+		margin-right: 10px;
+		background-color: gray;
+
+	}
+
+	
+	
+}
+/* media query only uses 1 parenthesis not ( () and () )*/
+@media(min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		float: left;
+		border: 2px black solid;
+		width: 50%;
+		margin-left: 10px;
+		margin-right: 10px;
+		background-color:gray;
+	}
+
+	.col-md-12 {
+		display: ;
+		float:left;
+		width: 105%;
+		border: 2px black solid;
+		margin-left: 10px;
+		margin-right: 10px;
+		background-color:gray;
+	}
+}
+
+@media(max-width: 767px) {
+	
+}
+
+
